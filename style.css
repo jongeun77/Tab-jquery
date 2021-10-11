@@ -1,0 +1,55 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+  font-family:'Raleway', sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a{
+  text-decoration: none;
+}
+.testimonial-section{
+  width: 800px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(196, 195, 195);
+  padding: 20px;
+}
+.testimonial-section h1{
+  font-size: 25px;
+}
+.testimonial-section h1 span{
+  color: crimson;
+}
+.testimonial h1{}
+.testimonial-pic{}
+.testimonial-pic img{
+  width: 100px;
+  filter: grayscale(1);
+  margin: 5px;
+  cursor: pointer;
+}
+.testimonial-pic img.active{
+  /* filter: grayscale(0); */
+  filter: none;
+  border-radius: 50%;
+}
+.testimonial{
+
+}
+.testimonial .content{
+  display: none;
+}
+.testimonial .content p:nth-child(2){
+  font-weight: bold;
+}
+.testimonial .content.active{
+  display: block;
+}
